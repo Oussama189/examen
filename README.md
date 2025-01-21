@@ -1,10 +1,14 @@
-Project Title: Full-Stack Authentication with Angular, Express, and MongoDB
+Full-Stack Authentication with Angular, Express, and MongoDB
 Description
-This is a full-stack application that implements a user authentication system using Angular for the front-end, Express for the back-end, and MongoDB as the database. It features JWT (JSON Web Tokens) for user authentication and cookie storage for maintaining sessions.
+This project is a full-stack application featuring user authentication with JWT (JSON Web Tokens). It consists of:
 
-Features:
-User Registration & Login with JWT authentication
-CRUD operations for handling user data
-Secure token storage in cookies
-RESTful API with Express.js
-MongoDB integration for persistent data
+Frontend: Angular application
+Backend: Express.js API with MongoDB for persistent storage
+JWT Authentication: Secure user login and registration
+Cookies: Secure storage of JWT tokens in cookies
+Features
+User registration and login with JWT authentication
+Secure token storage using HTTP-only cookies
+Protected API routes accessible only with a valid JWT
+CRUD operations for managing user data
+API consumption in the Angular front-end
