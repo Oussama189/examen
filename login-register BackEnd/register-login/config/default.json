@@ -1,0 +1,5 @@
+{
+    "mongo_URL" : "mongodb://127.0.0.1:27017/project_MEAN",
+    "jwtSecret": "jwtSecret",
+    "tokenExpire":"2592000"
+}
